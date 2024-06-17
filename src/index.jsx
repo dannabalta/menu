@@ -2,12 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
+import Plato from './Saludo';
+import Holi from './Saludo';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Holi lugar="CAT CAKE.S" ciudad="LA PAZ" dias="LUNES" horas="10:00 " horas2="16:00 "  dias5="VIERNES" dias2="MARTES"  dias3="MIERCOLESS"  dias4="JUEVES " comida="PASTEL" sabor1="CHOCOLATE" sabor2="FRESAS" sabor3="VAINILLA" sabor4="MANZANA" sabor5="MIXTO" precio="00bs"  />
   </React.StrictMode>
 );
 
